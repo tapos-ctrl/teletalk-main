@@ -1,0 +1,147 @@
+h2,
+h1 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+
+.half-color-box {
+  background: var(--gradient);
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+
+.por {
+  position: relative;
+}
+
+.review-box .quote {
+  position: absolute;
+  width: 40px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.review-box {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.review-box h5 {
+  margin: 0;
+}
+
+.review-box p {
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #000;
+}
+
+.user-post {
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.swiper-testimonial {
+  padding: 100px 20px;
+  padding-top: 30px;
+}
+
+.half-color-box {
+  background: var(--gradient);
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.test-arrowbox .swiper-button-next-test,
+.test-arrowbox .swiper-button-prev-test {
+  margin-right: 20px;
+  border-radius: 50%;
+  --size: 55px;
+  width: var(--size);
+  height: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media.testimonial-slider {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.media.testimonial-slider img {
+  margin: 0px auto;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #660000;
+}
+
+p.read:before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  color: #660000;
+  font-size: 10px;
+  position: relative;
+  top: -7px;
+}
+
+p.read:after {
+  content: "\f10e";
+  font-family: "FontAwesome";
+  color: #660000;
+  font-size: 10px;
+  position: relative;
+  bottom: -2px;
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+}
+
+.testimonial-title {
+  font-size: 18px;
+  height: auto;
+
+}
+
+.media-body-testimonial {
+  margin: 10px;
+}
+
+.review-box {
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
+  padding: 30px;
+  max-height: 350px;
+  min-height: 350px;
+}
+
+.review-box .read {
+  min-height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-slide.swiper-slide-active {
+    width: 100% !important;
+  }
+
+  .swiper-slide {
+    width: 100% !important;
+  }
+
+  .review-box {
+    max-height: 400px;
+    min-height: 400px;
+  }
+}
