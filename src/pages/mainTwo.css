@@ -21216,7 +21216,8 @@ a.logo.flex-column.text-center {
 @media (max-width: 479px) {
   a.logo img {
     margin-top: 6px;
-    max-height: 40px;
+    /* max-height: 40px; */
+    max-height: 100px;
   }
 
 }
@@ -22496,6 +22497,9 @@ body.active-side-header.slide-right .page_header_side {
   .page_slider .intro_layers .intro_layer span {
     font-size: 20px;
   }
+  .carousel-item{
+    height:300px !important;
+  }
 }
 
 @media (max-width: 479px) {
@@ -22503,6 +22507,9 @@ body.active-side-header.slide-right .page_header_side {
     display: block;
     margin-left: 0;
     margin-top: 15px;
+  }
+  .carousel-item{
+    height:300px !important;
   }
 
   .page_slider .intro_layers {

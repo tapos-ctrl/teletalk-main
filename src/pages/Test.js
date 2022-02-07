@@ -84,22 +84,22 @@ const Test = () => {
 
                   <div class="row header-two">
                     <div class="col-xl-5 col-lg-5 col-md-5">
-                      <ul class="top-line-includes-first top-includes">
+                      <ul class="top-line-includes-first  top-includes">
                         <li>
                           <a href="#/bn/about">আমাদের সম্পর্কে</a>
                         </li>
 
-                        <li class="call">
+                        <li class="call d-none d-md-inline-block">
                           <a href="tel:121" style={{ color: "#757678" }}><i class="fa fa-phone" aria-hidden="true"></i> 01866776970</a>
                         </li>
                       </ul>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 text-xl-right">
                       <ul class="top-line-includes-first top-includes account-lang topline-account">
-                        <li>
+                        {/* <li>
                           <a href="#/bn/golden-jubilee-independence-corner" style={{ background: "#660000", padding: "0px 7px", color: "#fff" }}> স্বাধীনতার সুবর্ণ জয়ন্তী কর্নার
                           </a>
-                        </li>
+                        </li> */}
                         <li>
                           <a href="" id="topline-search-button">
                             <i class="fa fa-search" aria-hidden="true"></i> অনুসন্ধান করুন
@@ -1536,6 +1536,93 @@ const Test = () => {
                         <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
 
                         <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                  <div class="card custom-card">
+                    <div class="box-one">
+                      <h4>PLAN-01</h4>
+                      <h2>৳ 5,000</h2>
+                      <ul>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />.com Domain</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />2 GB SSD Hossting</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Readymade Website</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Werdpress theme</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                  <div class="card custom-card">
+                    <div class="box-one">
+                      <h4>PLAN-01</h4>
+                      <h2>৳ 5,000</h2>
+                      <ul>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />.com Domain</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />2 GB SSD Hossting</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Readymade Website</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Werdpress theme</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 pt-3">
+                  <div class="card custom-card">
+                    <div class="box-one">
+                      <h4>PLAN-01</h4>
+                      <h2>৳ 5,000</h2>
+                      <ul>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />.com Domain</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />2 GB SSD Hossting</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Readymade Website</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />Werdpress theme</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+                        <li style={{ background: "rgb(255, 227, 227)", borderRadius: "5px" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
+
+                        <li style={{ background: "white" }}><input class="form-check-input custom-check" type="checkbox" value="" id="flexCheckDefault" />x</li>
                       </ul>
                     </div>
                   </div>
@@ -1550,6 +1637,18 @@ const Test = () => {
           </div>
 
           <section class="section-two">
+
+
+          <div class="col-md-12 text-center">
+            <h4 class="text-center pt-5 popular-heading">
+              {/* <!--<img src="images/new.png" alt="" />--> */}
+              <span> ব্লগ </span>
+            </h4>
+            <div class="divider-30 divider-sm-30"></div>
+          </div>
+
+
+
             <div class="container">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col-md-4 ">
