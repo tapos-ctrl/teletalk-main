@@ -22499,6 +22499,10 @@ body.active-side-header.slide-right .page_header_side {
   }
   .carousel-item{
     height:300px !important;
+    padding-top:90px
+  }
+  .carousel-item img{
+    height:200px !important;
   }
 }
 
@@ -22510,6 +22514,10 @@ body.active-side-header.slide-right .page_header_side {
   }
   .carousel-item{
     height:300px !important;
+    padding-top:90px
+  }
+  .carousel-item img{
+    height:200px !important;
   }
 
   .page_slider .intro_layers {

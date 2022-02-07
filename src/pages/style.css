@@ -52,7 +52,7 @@ ul{
 
 
 }
- ul>li{
+ .plan ul>li{
    font-weight: 700;
    margin-left: -19px;
    font-size: 12px;
