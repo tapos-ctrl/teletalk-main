@@ -1641,8 +1641,8 @@ const Test = () => {
 
 
             <div class="container">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col-md-4 ">
+              <div class="row row-cols-1 row-cols-md-3 pb-5 g-4">
+                <div class="col-md-4 my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
@@ -1654,7 +1654,7 @@ const Test = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
@@ -1666,7 +1666,7 @@ const Test = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
@@ -1678,7 +1678,7 @@ const Test = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4  my-5">
+                <div class="col-md-4  my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
@@ -1690,7 +1690,7 @@ const Test = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-4 my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
@@ -1702,7 +1702,7 @@ const Test = () => {
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 my-5">
+                <div class="col-md-4 my-3">
                   <div class="card custom-card">
                     <img src={cardImg}
                       class="card-img-top custom-image" alt="..." />
