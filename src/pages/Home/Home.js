@@ -22,9 +22,6 @@ const Home = () => {
                         <div class="carousel-item active">
                             <img class="d-block w-100" style={{ height: '500px' }} src={slider1} alt="First slide" />
                         </div>
-                        {/* <div class="carousel-item">
-                <img class="d-block w-100" style={{ height: '500px' }} src={slider2} alt="Second slide" />
-              </div> */}
                         <div class="carousel-item">
                             <img class="d-block w-100" style={{ height: '500px' }} src={slider3} alt="Third slide" />
                         </div>
@@ -56,14 +53,10 @@ const Home = () => {
                                 <div class="col-lg-3 col-sm-6 col-xs-6">
                                     <div class="module-box">
                                         <div class="icon-styled round">
-                                            {/* <!--<img src="img/mobile.png" />--> */}
                                             <a href="#/bn/voice/payment-recharge/online-recharge-purchase" target="_blank">
-                                                {/* <img src="https://www.teletalk.com.bd/themes/teletalk/assets/main/images/icon/1/bondho-sim.svg" /> */}
                                                 <i style={{ padding: "24px 8px", width: "60px", marginRight: "10px", height: "60px", color: "#660000" }} class="fas fa-money-check"></i> নিউজ ওয়েবসাইট
                                             </a>
                                         </div>
-                                        {/* <!--<div class="media-body">
-                      </div>--> */}
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-sm-6 col-xs-6">

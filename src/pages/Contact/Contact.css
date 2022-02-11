@@ -930,10 +930,20 @@ img {
 .form-submit {
     border: 0;
 }
+.lebel-text{
+    display: block;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: normal;
+    padding-bottom: 8px;
+    color: #1a1a1a;
+    font-family: "Telenor","Helvetica Neue",Helvetica,Arial,Noto Sans Bengali,sans-serif;
+    margin: 0;
 
+}
 .form-submit, .btn {
     border-radius: 3px;
-    padding: 10px 24px;
+    padding: 19px 24px;
     height: auto;
     font-family: "Telenor", "Helvetica Neue", Helvetica, Arial, Noto Sans Bengali, sans-serif;
     font-weight: 400;
@@ -1057,9 +1067,10 @@ img {
     text-align: center;
 }
 
-.bottom-share-blocks h4 {
+.bottom-share-blocks>h4 {
     font-weight: 300;
     padding-bottom: 18px;
+    font-size: 18px;
     line-height: 22px;
 }
 
@@ -1164,12 +1175,23 @@ img {
     display: inline-block;
 }
 
-
+.custom-select {
+    display: inline-block;
+    width: 299px;
+    height: calc(2.25rem + 13px);
+    padding:0;
+    border:0;
+}
+h1 {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 300;
+}
 
 .contact_select_form .custom-select select {
     display: inline-block;
     font-weight: normal;
-    padding: 0 10px 0 16px;
+    /* padding: 0 10px 0 16px; */
     margin: 0;
     font-family: "Telenor", "Helvetica Neue", Helvetica, Arial, Noto Sans Bengali, sans-serif;
     outline: none;
@@ -1215,6 +1237,22 @@ img {
     transition: border-width 150ms ease-in-out;
 }
 
+.contact_form_title{
+    font-size: 24px;
+    line-height: 32px;
+   
+}
+.contact-info>h4 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 0 24px 0;
+}
+.gp-home {
+    margin: 0;
+    line-height:30px;
+    font-weight: 800;
+    padding: 0 0 24px 0;
+}
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     .contact_select_form .custom-select select {
         padding-right: 34px;
@@ -1235,3 +1273,52 @@ img {
 .main_content {
     background: white;
 }
+
+@media (max-width: 575.98px) { 
+    .contact-box{
+        margin-left: 0px;
+    }
+    .contact-box-detail{
+        flex-wrap: wrap;
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 575.98px) { 
+    .contact-box{
+        margin-left: 60px;
+    }
+    
+}
+
+
+@media (min-width: 767.98px) {
+    .contact-box{
+        margin-left: 60;
+    }
+}
+
+
+@media (max-width: 991.98px) { 
+    .contact-box{
+        margin-left: 60;
+    }
+}
+
+
+/* 
+@media (max-width:1399.98px) {
+    .contact-box{
+        margin-left:60px ;
+    }
+} */
+
+@media (min-width: 1399.98px) {
+    .contact-box{
+        margin-left: 60px;
+    }
+ }
+ @media (min-width: 1199.98px) { 
+    .contact-box{
+        margin-left: 60px;
+    }
+ }

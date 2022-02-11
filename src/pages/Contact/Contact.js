@@ -5,7 +5,7 @@ import breadcrumb from '../../img/contact_us_1692_490.jpg';
 const Contact = () => {
   return (
     <>
-      <div class="main_content">
+      <div class="main_content pt-5">
         {/* <!-- banner-->
         <!-- for the templates other than basic pages-->
 
@@ -18,8 +18,8 @@ const Contact = () => {
         <div id="page-breadcrumb" class="breadcrumb">
           <div class="container">
             <ul>
-              <li class=""><a href="/bn">মূল পাতা <span style={{marginLeft:'5px',color:'silver'}}>&get</span></a></li>
-              <li class="active">যোগাযোগ করুন</li>
+              <li class=""><a href="/bn">মূল পাতা <span style={{ marginLeft: '5px', color: 'silver' }}>&get</span></a></li>
+              <li class="active ">যোগাযোগ করুন</li>
             </ul>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Contact = () => {
 
 
                   <div class="content">
-                    <h1 class="centered">যোগাযোগ করুন</h1>
+                    <h1 class="centered  text-center">যোগাযোগ করুন</h1>
                     <p><img alt="Contact US"
                       src={breadcrumb} />
                     </p>
@@ -50,16 +50,16 @@ const Contact = () => {
                 <div class="generic_contact_us">
                   <div class="contact_select_form_area contact-top-section">
                     <div class="contact_select_form clearfix">
-                      <label>যোগাযোগের কারণ নির্বাচন করুন</label>
+                      <label class="pt-3">যোগাযোগের কারণ নির্বাচন করুন</label>
                       <form id="contact_select_frm" action="/contact-us" method="get">
                         <div class="custom-select">
                           <select name="form_type" id="contact_frm_id">
-                            <option value="1037"> ব্যবসায়িক</option>
-                            <option value="1217"> STAR</option>
-                            <option value="2940"> বিনিয়োগকারী সম্পর্ক</option>
-                            <option value="6437" selected=""> সাধারণ</option>
-                            <option value="7223"> সোশ্যাল বাজ</option>
-                            <option value="8198"> Digital</option>
+                            <option value="1037" > ব্যবসায়িক</option>
+                            <option value="1217" > STAR</option>
+                            <option value="2940" > বিনিয়োগকারী সম্পর্ক</option>
+                            <option value="6437"  selected="সাধারণ"> সাধারণ</option>
+                            <option value="7223" > সোশ্যাল বাজ</option>
+                            <option value="8198" > Digital</option>
                           </select>
                           <div class="wt-loader hidden"></div>
                         </div>
@@ -76,18 +76,14 @@ const Contact = () => {
                       <span property="dc:title" content="General Enquiries"
                         class="rdf-meta element-hidden"></span>
 
-                      <div class="content">
-                        <div
-                          class="field field-name-body field-type-text-with-summary field-label-hidden">
+                      <div class="content contact-box-detail d-flex ">
+                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                           <div class="field-items">
                             <div class="field-item even" property="content:encoded">
-                              {/* <!--?php
-                              global $language;
-if($language---> */}
                               <p>কর্পোরেট কমিউনিকেশন ডিপার্টমেন্ট</p>
                               <div class="contact-info">
                                 <h4>গ্রামীণফোন</h4>
-                                <p>জিপি হাউস<br />
+                                <p class="gp-home">জিপি হাউস<br />
                                   বসুন্ধরা, বারিধারা<br />
                                   ঢাকা-১২২৯</p>
                                 <p><strong>ফোন:</strong> +৮৮-০২-২২২২৮২৯৯০,
@@ -99,77 +95,71 @@ if($language---> */}
                                 <p><br />
                                   &nbsp;</p>
                               </div>
-                              {/* <!--?php } ?--> */}
                             </div>
                           </div>
                         </div>
-                        <form class="webform-client-form webform-client-form-6676"
-                          action="/bn/webform/general-enquiries" method="post"
-                          id="webform-client-form-6676" accept-charset="UTF-8"
-                          novalidate="novalidate">
-                          <div>
-                            <div class="webform-progressbar">
-
-
-
-                            </div>
-                            <h3 class="contact_form_title">আমাদের লিখুন
-                            </h3>
-                            <div
-                              class="form-item webform-component webform-component-textfield webform-component--general-nme">
-                              <label for="edit-submitted-general-nme">নাম <span
-                                class="form-required"
-                                title="This field is required.">*</span></label>
-                              <input required="required" type="text"
-                                id="edit-submitted-general-nme" name="submitted[general_nme]"
-                                value="" size="60" maxlength="128" class="form-text required" />
-                            </div>
-                            <div
-                              class="form-item webform-component webform-component-textfield webform-component--general-number">
-                              <label for="edit-submitted-general-number">মোবাইল নম্বর <span
-                                class="form-required"
-                                title="This field is required.">*</span></label>
-                              <input required="required" type="text"
-                                id="edit-submitted-general-number"
-                                name="submitted[general_number]" value="" size="60"
-                                maxlength="128" class="form-text required" />
-                            </div>
-                            <div
-                              class="form-item webform-component webform-component-textarea webform-component--message">
-                              <label for="edit-submitted-message">বার্তা (অভিযোগ বা প্রশ্নের
-                                বিবরণ) <span class="form-required"
-                                  title="This field is required.">*</span></label>
-                              <div
-                                class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                                <textarea required="required" id="edit-submitted-message"
-                                  name="submitted[message]" cols="60" rows="5"
-                                  class="form-textarea required"></textarea>
-                                <div class="grippie"></div>
+                        <div class=" contact-box">
+                          <form class="webform-client-form webform-client-form-6676"
+                            action="/bn/webform/general-enquiries" method="post"
+                            id="webform-client-form-6676" accept-charset="UTF-8"
+                            novalidate="novalidate">
+                            <div>
+                              <div class="webform-progressbar">
                               </div>
-                            </div>
-                            <div
-                              class="form-item webform-component webform-component-email webform-component--general-email">
-                              <label for="edit-submitted-general-email">ই-মেইল (যদি থাকে) </label>
-                              <input class="email form-text form-email" type="email"
-                                id="edit-submitted-general-email"
-                                name="submitted[general_email]" size="60" />
-                            </div>
-                            <input type="hidden" name="details[sid]" /><input type="hidden"
-                              name="details[page_num]" value="1" /><input type="hidden"
-                                name="details[page_count]" value="1" /><input type="hidden"
-                                  name="details[finished]" value="0" /><input type="hidden"
-                                    name="form_build_id"
-                                    value="form-v6AncfygC8WGxAezcimhIzWB0zce-oIKqeSIYaH4fT8" /><input
-                              type="hidden" name="form_id" value="webform_client_form_6676" />
-                            <div class="form-actions" /><input
-                              class="webform-submit button-primary form-submit" type="submit"
-                              name="op" value="সাবমিট" /></div>
-
-                        </form>
+                              <h3 class="contact_form_title mt-0">আমাদের লিখুন
+                              </h3>
+                              <div
+                                class="form-item webform-component webform-component-textfield webform-component--general-nme">
+                                <label for="edit-submitted-general-nme d-block d-lg-block" class="lebel-text">নাম <span
+                                  class="form-required"
+                                  title="This field is required." style={{ color: 'red' }}>*</span></label>
+                                <input required="required" type="text"
+                                  id="edit-submitted-general-nme" name="submitted[general_nme]"
+                                  value="" size="60" maxlength="128" class="form-text required" />
+                              </div>
+                              <div
+                                class="form-item webform-component webform-component-textfield webform-component--general-number">
+                                <label for="edit-submitted-general-number" class="lebel-text">মোবাইল নম্বর <span
+                                  class="form-required"
+                                  title="This field is required." style={{ color: 'red', padding: '12px' }}>*</span></label>
+                                <input required="required" type="text"
+                                  id="edit-submitted-general-number"
+                                  name="submitted[general_number]" value="" size="60"
+                                  maxlength="128" class="form-text required" />
+                              </div>
+                              <div
+                                class="form-item webform-component webform-component-textarea webform-component--message">
+                                <label for="edit-submitted-message" class="lebel-text">বার্তা (অভিযোগ বা প্রশ্নের
+                                  বিবরণ) <span class="form-required"
+                                    title="This field is required." style={{ color: 'red' }}>*</span></label>
+                                <div
+                                  class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                  <textarea required="required" id="edit-submitted-message"
+                                    name="submitted[message]" cols="60" rows="5"
+                                    class="form-textarea required"></textarea>
+                                  <div class="grippie"></div>
+                                </div>
+                              </div>
+                              <div
+                                class="form-item webform-component webform-component-email webform-component--general-email">
+                                <label for="edit-submitted-general-email" class="lebel-text">ই-মেইল (যদি থাকে) </label>
+                                <input class="email form-text form-email" type="email"
+                                  id="edit-submitted-general-email"
+                                  name="submitted[general_email]" size="60" />
+                              </div>
+                              <input type="hidden" name="details[sid]" /><input type="hidden"
+                                name="details[page_num]" value="1" /><input type="hidden"
+                                  name="details[page_count]" value="1" /><input type="hidden"
+                                    name="details[finished]" value="0" /><input type="hidden"
+                                      name="form_build_id"
+                                      value="form-v6AncfygC8WGxAezcimhIzWB0zce-oIKqeSIYaH4fT8" /><input
+                                type="hidden" name="form_id" value="webform_client_form_6676" />
+                              <div class="form-actions" /><input
+                                class="webform-submit button-primary form-submit" type="submit"
+                                name="op" value="সাবমিট" /></div>
+                          </form>
+                        </div>
                       </div>
-
-
-
                     </div>
                   </div>
                 </div>
@@ -180,7 +170,7 @@ if($language---> */}
 
 
                   <div class="content">
-                    <p style={{display:'none'}}>grameenphone</p>
+                    <p style={{ display: 'none' }}>grameenphone</p>
                   </div>
                 </div>
                 <div id="block-block-133" class="block block-block">
